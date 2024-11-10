@@ -66,7 +66,7 @@ REDDIT_USER_AGENT=your_user_agent</code></pre>
     </ol>
 
 <h2 id="directory-structure">Directory Structure</h2>
-<pre><code>reddit-tiktok-video-generator/
+<pre><code>moneymaker/
 │
 ├── main.py
 ├── requirements.txt
