@@ -21,8 +21,8 @@ Features
 Installation
 1. Clone the Repository
 
-git clone https://github.com/yourusername/reddit-tiktok-video-generator.git
-cd reddit-tiktok-video-generator
+git clone https://github.com/ymistyy/moneymaker.git
+cd moneymaker
 
 2. Set Up Python Environment
 
