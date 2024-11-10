@@ -26,7 +26,7 @@ A Python script that automates the creation of TikTok-style brainrot videos usin
 
 ### 1. Clone the Repository
 
-```bash
+bash:
 git clone https://github.com/ymistyy/moneymaker.git
 cd moneymaker
 
