@@ -1,54 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moneymaker Installation and Usage Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 1rem;
-            overflow-x: auto;
-        }
-
-        code {
-            font-family: "Courier New", Courier, monospace;
-            background-color: #f9f9f9;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-
-        ul {
-            margin-left: 20px;
-        }
-
-        ol {
-            margin-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Moneymaker</h1>
+#Moneymaker
     <p>A Python script that automates the creation of TikTok-style brainrot videos using popular Reddit posts. This tool fetches content from subreddits, generates audio using text-to-speech (TTS), adds synchronized subtitles, and combines everything with gameplay footage and animations for short videos.</p>
-
-    <h2>Table of Contents</h2>
+    
+<h2>Table of Contents</h2>
     <ul>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#usage">Usage</a></li>
@@ -57,7 +10,7 @@
         <li><a href="#requirements">Requirements</a></li>
     </ul>
 
-    <h2 id="installation">Installation</h2>
+<h2 id="installation">Installation</h2>
     <ol>
         <li><strong>Clone the Repository</strong>
             <pre><code>git clone https://github.com/ymistyy/moneymaker.git
@@ -84,7 +37,7 @@ REDDIT_USER_AGENT=your_user_agent</code></pre>
         </li>
     </ol>
 
-    <h2 id="usage">Usage</h2>
+<h2 id="usage">Usage</h2>
     <ol>
         <li><strong>Prepare Directories</strong>
             <p>Ensure you have these directories in the project root:</p>
@@ -112,8 +65,8 @@ REDDIT_USER_AGENT=your_user_agent</code></pre>
         </li>
     </ol>
 
-    <h2 id="directory-structure">Directory Structure</h2>
-    <pre><code>reddit-tiktok-video-generator/
+<h2 id="directory-structure">Directory Structure</h2>
+<pre><code>reddit-tiktok-video-generator/
 │
 ├── main.py
 ├── requirements.txt
@@ -125,13 +78,13 @@ REDDIT_USER_AGENT=your_user_agent</code></pre>
 └── output/                 # Generated videos (created by script)
 </code></pre>
 
-    <h2 id="environment-variables">Environment Variables</h2>
+<h2 id="environment-variables">Environment Variables</h2>
     <p>Add your Reddit credentials to the <code>.env</code> file:</p>
     <pre><code>REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
 REDDIT_USER_AGENT=your_user_agent</code></pre>
 
-    <h2 id="requirements">Requirements</h2>
+<h2 id="requirements">Requirements</h2>
     <p>All required Python libraries are listed in <code>requirements.txt</code>:</p>
     <ul>
         <li><code>praw</code></li>
@@ -145,7 +98,7 @@ REDDIT_USER_AGENT=your_user_agent</code></pre>
     <p>To install all required packages:</p>
     <pre><code>pip install -r requirements.txt</code></pre>
 
-    <h2>Support</h2>
+<h2>Support</h2>
     <p>If you encounter any issues or have questions about this project, please open an issue. Contributions, suggestions, and feedback are always welcome!</p>
     
 </body>
