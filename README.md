@@ -22,7 +22,7 @@ Installation
 1. Clone the Repository
 
 git clone https://github.com/ymistyy/moneymaker.git
-cd moneymaker
+<p>cd moneymaker</p>
 
 2. Set Up Python Environment
 
